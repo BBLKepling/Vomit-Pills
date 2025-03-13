@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugPillBase">
+    <defName>BBLK_VomitPills</defName>
+    <label>vomit pills</label>
+    <description>A pill filled with a mixture of mustard, vinegar and oyster sauce.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/WakeUp</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(101,116,58)</color>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="Vomit_Pills.IngestionOutcomeDoer_Vomit" />
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <RecipeDef Name="BBLK_Make_VomitPillsBase" Abstract="True">
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BBLK_Make_VomitPillsBase">
+    <defName>BBLK_Make_VomitPills</defName>
+    <label>make vomit pills</label>
+    <description>Make vomit pills from plant matter.</description>
+    <jobString>Making vomit pills.</jobString>
+    <workAmount>100</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BBLK_VomitPills>1</BBLK_VomitPills>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BBLK_Make_VomitPillsBase">
+    <defName>BBLK_Make_VomitPillsBulk</defName>
+    <label>make vomit pills x4</label>
+    <description>Make 4 vomit pills from plant matter.</description>
+    <jobString>Making 4 vomit pills.</jobString>
+    <workAmount>400</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <BBLK_VomitPills>4</BBLK_VomitPills>
+    </products>
+  </RecipeDef>
+
+</Defs>
