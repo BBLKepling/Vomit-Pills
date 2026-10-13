@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Assemblies\Debug\Vomit Pills.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Assemblies\Debug\Vomit Pills.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.sourcelink.json
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\refint\Vomit Pills.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pills.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\ref\Vomit Pills.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vomit-Pills\1.7\Source\Vomit Pills\obj\Debug\Vomit Pi.9202492D.Up2Date
